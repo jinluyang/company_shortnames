@@ -1,0 +1,5 @@
+#!/bin/sh
+../crf_learn -c 10.0 -p 3 short.template short.data model
+../crf_learn -c 1.0 -p 3 short.template short.data model2
+../crf_learn -c 10.0 -f 2 -p 3 short.template short.data model3
+../crf_learn -a MIRA -p 3 short.template short.data model4

@@ -1,0 +1,2 @@
+#!/bin/sh
+../crf_test  -m model4 short.test> result4.txt

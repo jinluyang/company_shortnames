@@ -1,0 +1,4 @@
+#!/bin/sh
+../crf_learn -c 10.0 short.template short.data model
+../crf_test  -m model short.test>result.txt
+rm -f model
